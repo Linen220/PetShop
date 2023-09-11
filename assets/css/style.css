@@ -39,6 +39,10 @@ body {
     background-color: var(--quaternary-color);
 }
 
+.btn-tertiary {
+    background-color: var(--secondary-color);
+}
+
 img {
     display: block;
 }
@@ -182,6 +186,8 @@ header {
 }
 
 .input__box {
+    border: none;
+    outline: none;
     width: 290px;
     font-size: .6rem;
     font-weight: 400;
@@ -200,4 +206,30 @@ header {
 .form__buttons .btn-secondary {
     border-radius: 25px;
     width: 140px;
+}
+
+/* SUBSCRIPTION SECTION STYLE */
+.subscription {
+    background-color: var(--tertiary-color);
+}
+
+.subscription__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.subscription__title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    padding: 14px 0;
+}
+
+.subscription__form .input__box {
+    width: 250px;
+    background-color: #FFFFFF;
+    color: #A0A0A0;
+    padding-left: 16px;
 }
