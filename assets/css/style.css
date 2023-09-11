@@ -1,3 +1,12 @@
+/* DEFAULT STYLES */
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #3C2313;
+    --tertiary-color: #F0A83E;
+    --quaternary-color: #8A8787;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,3 +16,6 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* NAVBAR STYLES */
