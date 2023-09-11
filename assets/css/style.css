@@ -21,16 +21,22 @@ body {
     display: none;
 }
 
-.btn-primary {
+.btn {
     border-style: none;
     cursor: pointer;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 400;
-    text-transform: uppercase;
     color: var(--primary-color);
     padding: 15px 23px;
+}
+
+.btn-primary {
     background-color: var(--tertiary-color);
+}
+
+.btn-secondary {
+    background-color: var(--quaternary-color);
 }
 
 img {
@@ -99,9 +105,13 @@ header {
     color: var(--primary-color);
 }
 
+.hero .btn-primary {
+    text-transform: uppercase;
+}
+
 /* PRODUCT SECTION STYLES */
 .product {
-    padding: 30px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -149,5 +159,45 @@ header {
     font-size: 0.85rem;
     font-weight: 500;
     color: var(--tertiary-color);
-    padding: 7px 0;
+    padding: 8px 0;
+}
+
+/* CONTACT SECTION STYLES */
+.contact {
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding-bottom: 16px;
+    color: var(--secondary-color);
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.input__box {
+    width: 290px;
+    font-size: .6rem;
+    font-weight: 400;
+    padding: 14px 6px;
+    border-style: none;
+    border-radius: 15px;
+    color: #AB9C9C;
+    background-color: #3C2313;
+}
+
+.form__buttons {
+    padding: 45px 0;
+}
+
+.form__buttons .btn-primary,
+.form__buttons .btn-secondary {
+    border-radius: 25px;
+    width: 140px;
 }
