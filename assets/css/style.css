@@ -4,7 +4,6 @@
     --secondary-color: #3C2313;
     --tertiary-color: #F0A83E;
     --quaternary-color: #8A8787;
-
 }
 
 * {
@@ -15,7 +14,39 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-color);
 }
 
+.menu {
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 /* NAVBAR STYLES */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 40px;
+    background-color: var(--tertiary-color);
+}
+
+.logo {
+
+}
+
+.logo__title {
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.logo__title span {
+    color: var(--primary-color);
+}
+
