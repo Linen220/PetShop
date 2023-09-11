@@ -21,6 +21,18 @@ body {
     display: none;
 }
 
+.btn-primary {
+    border-style: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    padding: 15px 23px;
+    background-color: var(--tertiary-color);
+}
+
 img {
     display: block;
 }
@@ -42,8 +54,6 @@ header {
     background-color: var(--tertiary-color);
 }
 
-
-
 .logo__title {
     font-weight: 700;
     color: var(--secondary-color);
@@ -51,20 +61,50 @@ header {
 
 .logo__title::after {
     content: url('../icon/dog.svg');
-    height: 100%;
-    vertical-align: middle;
     margin-left: 3px;
 }
 
 .logo__title::before {
     content: url('../icon/cat.svg');
-    height: 100%;
-    vertical-align: middle;
     margin-right: 3px;
 }
-
 
 .logo__title span {
     color: var(--primary-color);
 }
 
+/* HERO SECTION STYLES */
+.hero {
+    background: url('../img/background-mobile.png') no-repeat center;
+    background-size: cover;
+    min-height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 0 24px;
+}
+
+.hero__title {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 12px 20px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.hero__text, 
+.hero .btn-primary {
+    align-self: flex-end;
+}
+
+.hero__text {
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-right: 3px;
+}
+
+.hero .btn-primary {
+    margin-right: 19px;
+}
