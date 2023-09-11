@@ -21,6 +21,10 @@ body {
     display: none;
 }
 
+img {
+    display: block;
+}
+
 li {
     list-style: none;
 }
@@ -33,18 +37,32 @@ a {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 18px 40px;
     background-color: var(--tertiary-color);
 }
 
-.logo {
 
-}
 
 .logo__title {
     font-weight: 700;
     color: var(--secondary-color);
 }
+
+.logo__title::after {
+    content: url('../icon/dog.svg');
+    height: 100%;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+.logo__title::before {
+    content: url('../icon/cat.svg');
+    height: 100%;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
 
 .logo__title span {
     color: var(--primary-color);
