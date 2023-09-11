@@ -227,9 +227,22 @@ header {
     padding: 14px 0;
 }
 
+.subscription__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
 .subscription__form .input__box {
-    width: 250px;
+    width: 200px;
     background-color: #FFFFFF;
     color: #A0A0A0;
     padding-left: 16px;
+    margin-right: 9px;
+}
+
+.subscription__form .btn-tertiary {
+    border-radius: 15px;
+    padding: 8px;
 }
