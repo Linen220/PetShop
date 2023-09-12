@@ -64,7 +64,7 @@ header {
     background-color: var(--tertiary-color);
 }
 
-.logo__title {
+header .logo__title {
     font-weight: 700;
     color: var(--secondary-color);
 }
@@ -79,7 +79,7 @@ header {
     margin-right: 3px;
 }
 
-.logo__title span {
+header .logo__title span {
     color: var(--primary-color);
 }
 
@@ -245,4 +245,62 @@ header {
 .subscription__form .btn-tertiary {
     border-radius: 15px;
     padding: 8px;
+}
+
+/* FOOTER STYLES */
+footer {
+    text-align: center;
+    padding: 11px 0 22px;
+    background-color: var(--secondary-color);
+}
+
+footer .logo__title {
+    padding-bottom: 15px;
+    color: var(--primary-color);
+}
+
+footer .logo__title  span {
+    color: var(--tertiary-color);
+}
+
+.footer_container {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.branding {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.branding__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 68px;
+    width: 68px;
+    background-color: var(--quaternary-color);
+    border: 4px solid #786960;
+    border-radius: 40px;
+}
+
+.branding__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.branding__title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.branding__text {
+   font-size: .9rem; 
+   font-weight: 700;
+   color: var(--quaternary-color);
 }
