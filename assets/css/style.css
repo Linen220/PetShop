@@ -89,17 +89,22 @@ header {
     background-size: cover;
     min-height: 410px;
     display: flex;
+    justify-content: center;
+}
+
+.hero__container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 12px;
-    padding: 0 24px;
 }
 
 .hero__title {
     font-size: 1.25rem;
     font-weight: 400;
     padding: 12px 20px;
+    color: var(--secondary-color);
     background-color: var(--primary-color);
     border-radius: 5px;
 }
@@ -351,5 +356,20 @@ footer .logo__title  span {
     .logo__title span {
         font-weight: 700;
         color: var(--primary-color);
+    }
+
+    /* HERO SECTION STYLES */
+    .hero {
+        background: url('../img/background-desktop.png') no-repeat center;
+        background-size: cover;
+        justify-content: flex-end;
+        padding-right: 40px;
+    }
+
+    .hero__title {
+        font-size: 1.8rem;
+    }
+    .hero__text {
+        color: var(--secondary-color);
     }
 }
