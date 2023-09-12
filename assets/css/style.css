@@ -369,7 +369,14 @@ footer .logo__title  span {
     .hero__title {
         font-size: 1.8rem;
     }
+
     .hero__text {
         color: var(--secondary-color);
+    }
+
+    /* PRODUCT SECTION STYLES */
+    .product__container {
+        flex-direction: row;
+        justify-content: center;
     }
 }
