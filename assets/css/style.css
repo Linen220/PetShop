@@ -218,6 +218,7 @@ header {
 
 /* SUBSCRIPTION SECTION STYLE */
 .subscription {
+    padding: 14px 0;
     background-color: var(--tertiary-color);
 }
 
@@ -226,20 +227,19 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding-bottom: 14px;
 }
 
 .subscription__title {
     font-size: 1.05rem;
     font-weight: 700;
     color: var(--primary-color);
-    padding: 14px 0;
 }
 
 .subscription__form {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10px;
 }
 
 .subscription__form .input__box {
@@ -404,11 +404,34 @@ footer .logo__title  span {
         padding-left: 14px;
     }
     
-    .input__box::placeholder {
+    .contact .input__box::placeholder {
         color: var(--primary-color)
     }
 
     .form__buttons {
         padding: 30px 0 75px;
+    }
+
+    /* SUBSCRIPTION SECTION STYLES */
+    .subscription {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .subscription__info {
+        padding-bottom: 0;
+    }
+
+    .subscription__title {
+        font-size: 1.5rem;
+    }
+
+    .subscription__form .btn-tertiary {
+        font-size: .7rem;
+        font-weight: 700;
+        padding: 12px;
     }
 }
